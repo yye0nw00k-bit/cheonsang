@@ -1,0 +1,259 @@
+[Cheonsang RPG - EXE Build Log]
+Folder: C:\Users\ìµœì—°ìš±\OneDrive\ë¬¸ì„œ\ì²œìƒ_RPG_ì˜¨ë¼ì¸ê´€ë¦¬_ìŠ¤í‚¬ë¶_ìµœì¢…ë³¸
+Python 3.14.7
+Requirement already satisfied: pip in .\.venv\Lib\site-packages (26.2.1)
+Collecting pip
+  Using cached pip-26.2.2-py3-none-any.whl.metadata (4.6 kB)
+Using cached pip-26.2.2-py3-none-any.whl (1.8 MB)
+Installing collected packages: pip
+  Attempting uninstall: pip
+    Found existing installation: pip 26.2.1
+    Uninstalling pip-26.2.1:
+      Successfully uninstalled pip-26.2.1
+Successfully installed pip-26.2.2
+Collecting pygame-ce==2.5.8
+  Using cached pygame_ce-2.5.8-cp314-cp314-win_amd64.whl.metadata (11 kB)
+Collecting pyinstaller==6.22.3
+  Using cached pyinstaller-6.22.3-py3-none-win_amd64.whl.metadata (8.5 kB)
+Collecting altgraph (from pyinstaller==6.22.3)
+  Using cached altgraph-0.17.5-py2.py3-none-any.whl.metadata (7.5 kB)
+Collecting packaging>=22.0 (from pyinstaller==6.22.3)
+  Using cached packaging-26.3-py3-none-any.whl.metadata (3.5 kB)
+Collecting pefile>=2022.5.30 (from pyinstaller==6.22.3)
+  Using cached pefile-2024.8.26-py3-none-any.whl.metadata (1.4 kB)
+Collecting pyinstaller-hooks-contrib>=2026.7 (from pyinstaller==6.22.3)
+  Using cached pyinstaller_hooks_contrib-2026.9-py3-none-any.whl.metadata (16 kB)
+Collecting pywin32-ctypes>=0.2.1 (from pyinstaller==6.22.3)
+  Using cached pywin32_ctypes-0.2.3-py3-none-any.whl.metadata (3.9 kB)
+Collecting setuptools>=42.0.0 (from pyinstaller==6.22.3)
+  Using cached setuptools-84.2.1-py3-none-any.whl.metadata (6.6 kB)
+Using cached pygame_ce-2.5.8-cp314-cp314-win_amd64.whl (9.8 MB)
+Using cached pyinstaller-6.22.3-py3-none-win_amd64.whl (1.5 MB)
+Using cached packaging-26.3-py3-none-any.whl (129 kB)
+Using cached pefile-2024.8.26-py3-none-any.whl (74 kB)
+Using cached pyinstaller_hooks_contrib-2026.9-py3-none-any.whl (462 kB)
+Using cached pywin32_ctypes-0.2.3-py3-none-any.whl (30 kB)
+Using cached setuptools-84.2.1-py3-none-any.whl (876 kB)
+Using cached altgraph-0.17.5-py2.py3-none-any.whl (21 kB)
+Installing collected packages: altgraph, setuptools, pywin32-ctypes, pygame-ce, pefile, packaging, pyinstaller-hooks-contrib, pyinstaller
+
+Successfully installed altgraph-0.17.5 packaging-26.3 pefile-2024.8.26 pygame-ce-2.5.8 pyinstaller-6.22.3 pyinstaller-hooks-contrib-2026.9 pywin32-ctypes-0.2.3 setuptools-84.2.1
+242 INFO: PyInstaller: 6.22.3, contrib hooks: 2026.9
+242 INFO: Python: 3.14.7
+282 INFO: Platform: Windows-11-10.0.26300-SP0
+282 INFO: Python environment: C:\Users\ÃÖ¿¬¿í\OneDrive\¹®¼­\Ãµ»ó_RPG_¿Â¶óÀÎ°ü¸®_½ºÅ³ºÏ_ÃÖÁ¾º»\.venv
+283 INFO: wrote C:\Users\ÃÖ¿¬¿í\OneDrive\¹®¼­\Ãµ»ó_RPG_¿Â¶óÀÎ°ü¸®_½ºÅ³ºÏ_ÃÖÁ¾º»\CheonsangRPG.spec
+287 INFO: Removing temporary files and cleaning cache in C:\Users\ÃÖ¿¬¿í\AppData\Local\pyinstaller
+pygame-ce 2.5.8 (SDL 2.32.10, Python 3.14.7)
+2213 INFO: Module search paths (PYTHONPATH):
+['C:\\Users\\ÃÖ¿¬¿í\\OneDrive\\¹®¼­\\Ãµ»ó_RPG_¿Â¶óÀÎ°ü¸®_½ºÅ³ºÏ_ÃÖÁ¾º»',
+ 'C:\\Users\\ÃÖ¿¬¿í\\AppData\\Local\\Python\\pythoncore-3.14-64\\python314.zip',
+ 'C:\\Users\\ÃÖ¿¬¿í\\AppData\\Local\\Python\\pythoncore-3.14-64\\DLLs',
+ 'C:\\Users\\ÃÖ¿¬¿í\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib',
+ 'C:\\Users\\ÃÖ¿¬¿í\\AppData\\Local\\Python\\pythoncore-3.14-64',
+ 'C:\\Users\\ÃÖ¿¬¿í\\OneDrive\\¹®¼­\\Ãµ»ó_RPG_¿Â¶óÀÎ°ü¸®_½ºÅ³ºÏ_ÃÖÁ¾º»\\.venv',
+ 'C:\\Users\\ÃÖ¿¬¿í\\OneDrive\\¹®¼­\\Ãµ»ó_RPG_¿Â¶óÀÎ°ü¸®_½ºÅ³ºÏ_ÃÖÁ¾º»\\.venv\\Lib\\site-packages',
+ 'C:\\Users\\ÃÖ¿¬¿í\\OneDrive\\¹®¼­\\Ãµ»ó_RPG_¿Â¶óÀÎ°ü¸®_½ºÅ³ºÏ_ÃÖÁ¾º»']
+pygame-ce 2.5.8 (SDL 2.32.10, Python 3.14.7)
+2714 INFO: Appending 'binaries' from .spec
+2716 INFO: Appending 'datas' from .spec
+2753 INFO: checking Analysis
+2753 INFO: Building Analysis because Analysis-00.toc is non existent
+2753 INFO: Looking for Python shared library...
+2753 INFO: Using Python shared library: C:\Users\ÃÖ¿¬¿í\AppData\Local\Python\pythoncore-3.14-64\python314.dll
+2753 INFO: Running Analysis Analysis-00.toc
+2753 INFO: Target bytecode optimization level: 0
+2753 INFO: Initializing module dependency graph...
+2756 INFO: Initializing module graph hook caches...
+2796 INFO: Analyzing modules for base_library.zip ...
+5279 INFO: Processing standard module hook 'hook-encodings.py' from 'C:\\Users\\ÃÖ¿¬¿í\\OneDrive\\¹®¼­\\Ãµ»ó_RPG_¿Â¶óÀÎ°ü¸®_½ºÅ³ºÏ_ÃÖÁ¾º»\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+5990 INFO: Processing standard module hook 'hook-math.py' from 'C:\\Users\\ÃÖ¿¬¿í\\OneDrive\\¹®¼­\\Ãµ»ó_RPG_¿Â¶óÀÎ°ü¸®_½ºÅ³ºÏ_ÃÖÁ¾º»\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+8479 INFO: Processing standard module hook 'hook-difflib.py' from 'C:\\Users\\ÃÖ¿¬¿í\\OneDrive\\¹®¼­\\Ãµ»ó_RPG_¿Â¶óÀÎ°ü¸®_½ºÅ³ºÏ_ÃÖÁ¾º»\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+8504 INFO: Processing standard module hook 'hook-heapq.py' from 'C:\\Users\\ÃÖ¿¬¿í\\OneDrive\\¹®¼­\\Ãµ»ó_RPG_¿Â¶óÀÎ°ü¸®_½ºÅ³ºÏ_ÃÖÁ¾º»\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+8700 INFO: Processing standard module hook 'hook-pickle.py' from 'C:\\Users\\ÃÖ¿¬¿í\\OneDrive\\¹®¼­\\Ãµ»ó_RPG_¿Â¶óÀÎ°ü¸®_½ºÅ³ºÏ_ÃÖÁ¾º»\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+11447 INFO: Caching module dependency graph...
+11502 INFO: Analyzing C:\Users\ÃÖ¿¬¿í\OneDrive\¹®¼­\Ãµ»ó_RPG_¿Â¶óÀÎ°ü¸®_½ºÅ³ºÏ_ÃÖÁ¾º»\game.py
+11815 INFO: Processing standard module hook 'hook-sqlite3.py' from 'C:\\Users\\ÃÖ¿¬¿í\\OneDrive\\¹®¼­\\Ãµ»ó_RPG_¿Â¶óÀÎ°ü¸®_½ºÅ³ºÏ_ÃÖÁ¾º»\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+12301 INFO: Processing standard module hook 'hook-pygame.py' from 'C:\\Users\\ÃÖ¿¬¿í\\OneDrive\\¹®¼­\\Ãµ»ó_RPG_¿Â¶óÀÎ°ü¸®_½ºÅ³ºÏ_ÃÖÁ¾º»\\.venv\\Lib\\site-packages\\pygame\\__pyinstaller'
+12486 INFO: Processing standard module hook 'hook-platform.py' from 'C:\\Users\\ÃÖ¿¬¿í\\OneDrive\\¹®¼­\\Ãµ»ó_RPG_¿Â¶óÀÎ°ü¸®_½ºÅ³ºÏ_ÃÖÁ¾º»\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+12644 INFO: Processing standard module hook 'hook-sysconfig.py' from 'C:\\Users\\ÃÖ¿¬¿í\\OneDrive\\¹®¼­\\Ãµ»ó_RPG_¿Â¶óÀÎ°ü¸®_½ºÅ³ºÏ_ÃÖÁ¾º»\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+12656 INFO: Processing standard module hook 'hook-_ctypes.py' from 'C:\\Users\\ÃÖ¿¬¿í\\OneDrive\\¹®¼­\\Ãµ»ó_RPG_¿Â¶óÀÎ°ü¸®_½ºÅ³ºÏ_ÃÖÁ¾º»\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+12875 INFO: Processing pre-safe-import-module hook 'hook-typing_extensions.py' from 'C:\\Users\\ÃÖ¿¬¿í\\OneDrive\\¹®¼­\\Ãµ»ó_RPG_¿Â¶óÀÎ°ü¸®_½ºÅ³ºÏ_ÃÖÁ¾º»\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+12879 INFO: SetuptoolsInfo: initializing cached setuptools info...
+14800 INFO: Analyzing hidden import 'pygame.__briefcase'
+14801 INFO: Analyzing hidden import 'pygame.__briefcase.pygame_ce'
+14805 INFO: Analyzing hidden import 'pygame.__pyinstaller'
+14806 INFO: Analyzing hidden import 'pygame.__pyinstaller.hook-pygame'
+15383 INFO: Processing standard module hook 'hook-webbrowser.py' from 'C:\\Users\\ÃÖ¿¬¿í\\OneDrive\\¹®¼­\\Ãµ»ó_RPG_¿Â¶óÀÎ°ü¸®_½ºÅ³ºÏ_ÃÖÁ¾º»\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+15941 INFO: Processing pre-safe-import-module hook 'hook-importlib_metadata.py' from 'C:\\Users\\ÃÖ¿¬¿í\\OneDrive\\¹®¼­\\Ãµ»ó_RPG_¿Â¶óÀÎ°ü¸®_½ºÅ³ºÏ_ÃÖÁ¾º»\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+15943 INFO: Setuptools: 'importlib_metadata' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.importlib_metadata'!
+15957 INFO: Processing standard module hook 'hook-setuptools.py' from 'C:\\Users\\ÃÖ¿¬¿í\\OneDrive\\¹®¼­\\Ãµ»ó_RPG_¿Â¶óÀÎ°ü¸®_½ºÅ³ºÏ_ÃÖÁ¾º»\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+15988 INFO: Processing pre-safe-import-module hook 'hook-distutils.py' from 'C:\\Users\\ÃÖ¿¬¿í\\OneDrive\\¹®¼­\\Ãµ»ó_RPG_¿Â¶óÀÎ°ü¸®_½ºÅ³ºÏ_ÃÖÁ¾º»\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+16041 INFO: Processing pre-safe-import-module hook 'hook-jaraco.py' from 'C:\\Users\\ÃÖ¿¬¿í\\OneDrive\\¹®¼­\\Ãµ»ó_RPG_¿Â¶óÀÎ°ü¸®_½ºÅ³ºÏ_ÃÖÁ¾º»\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+16043 INFO: Setuptools: 'jaraco' appears to be a full setuptools-vendored copy - creating alias to 'setuptools._vendor.jaraco'!
+16061 INFO: Processing pre-safe-import-module hook 'hook-more_itertools.py' from 'C:\\Users\\ÃÖ¿¬¿í\\OneDrive\\¹®¼­\\Ãµ»ó_RPG_¿Â¶óÀÎ°ü¸®_½ºÅ³ºÏ_ÃÖÁ¾º»\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+16063 INFO: Setuptools: 'more_itertools' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.more_itertools'!
+16348 INFO: Processing standard module hook 'hook-_osx_support.py' from 'C:\\Users\\ÃÖ¿¬¿í\\OneDrive\\¹®¼­\\Ãµ»ó_RPG_¿Â¶óÀÎ°ü¸®_½ºÅ³ºÏ_ÃÖÁ¾º»\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+16373 INFO: Processing pre-safe-import-module hook 'hook-packaging.py' from 'C:\\Users\\ÃÖ¿¬¿í\\OneDrive\\¹®¼­\\Ãµ»ó_RPG_¿Â¶óÀÎ°ü¸®_½ºÅ³ºÏ_ÃÖÁ¾º»\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+16851 INFO: Processing standard module hook 'hook-setuptools._vendor.jaraco.text.py' from 'C:\\Users\\ÃÖ¿¬¿í\\OneDrive\\¹®¼­\\Ãµ»ó_RPG_¿Â¶óÀÎ°ü¸®_½ºÅ³ºÏ_ÃÖÁ¾º»\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+16853 INFO: Processing pre-safe-import-module hook 'hook-importlib_resources.py' from 'C:\\Users\\ÃÖ¿¬¿í\\OneDrive\\¹®¼­\\Ãµ»ó_RPG_¿Â¶óÀÎ°ü¸®_½ºÅ³ºÏ_ÃÖÁ¾º»\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+16870 INFO: Processing pre-safe-import-module hook 'hook-backports.py' from 'C:\\Users\\ÃÖ¿¬¿í\\OneDrive\\¹®¼­\\Ãµ»ó_RPG_¿Â¶óÀÎ°ü¸®_½ºÅ³ºÏ_ÃÖÁ¾º»\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+16871 INFO: Setuptools: 'backports' appears to be a full setuptools-vendored copy - creating alias to 'setuptools._vendor.backports'!
+17855 INFO: Processing pre-safe-import-module hook 'hook-tomli.py' from 'C:\\Users\\ÃÖ¿¬¿í\\OneDrive\\¹®¼­\\Ãµ»ó_RPG_¿Â¶óÀÎ°ü¸®_½ºÅ³ºÏ_ÃÖÁ¾º»\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+17857 INFO: Setuptools: 'tomli' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.tomli'!
+19186 INFO: Processing pre-safe-import-module hook 'hook-wheel.py' from 'C:\\Users\\ÃÖ¿¬¿í\\OneDrive\\¹®¼­\\Ãµ»ó_RPG_¿Â¶óÀÎ°ü¸®_½ºÅ³ºÏ_ÃÖÁ¾º»\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+19187 INFO: Setuptools: 'wheel' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.wheel'!
+19290 INFO: Processing standard module hook 'hook-setuptools._vendor.importlib_metadata.py' from 'C:\\Users\\ÃÖ¿¬¿í\\OneDrive\\¹®¼­\\Ãµ»ó_RPG_¿Â¶óÀÎ°ü¸®_½ºÅ³ºÏ_ÃÖÁ¾º»\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+19330 INFO: Processing pre-safe-import-module hook 'hook-zipp.py' from 'C:\\Users\\ÃÖ¿¬¿í\\OneDrive\\¹®¼­\\Ãµ»ó_RPG_¿Â¶óÀÎ°ü¸®_½ºÅ³ºÏ_ÃÖÁ¾º»\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+19331 INFO: Setuptools: 'zipp' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.zipp'!
+19384 INFO: Processing standard module hook 'hook-win32ctypes.core.py' from 'C:\\Users\\ÃÖ¿¬¿í\\OneDrive\\¹®¼­\\Ãµ»ó_RPG_¿Â¶óÀÎ°ü¸®_½ºÅ³ºÏ_ÃÖÁ¾º»\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+20976 INFO: Analyzing hidden import 'pygame._camera'
+20977 INFO: Analyzing hidden import 'pygame._camera_opencv'
+21112 INFO: Processing standard module hook 'hook-xml.py' from 'C:\\Users\\ÃÖ¿¬¿í\\OneDrive\\¹®¼­\\Ãµ»ó_RPG_¿Â¶óÀÎ°ü¸®_½ºÅ³ºÏ_ÃÖÁ¾º»\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+21163 INFO: Processing standard module hook 'hook-xml.etree.cElementTree.py' from 'C:\\Users\\ÃÖ¿¬¿í\\OneDrive\\¹®¼­\\Ãµ»ó_RPG_¿Â¶óÀÎ°ü¸®_½ºÅ³ºÏ_ÃÖÁ¾º»\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+21167 INFO: Analyzing hidden import 'pygame._render'
+21208 INFO: Analyzing hidden import 'pygame._sdl2.controller'
+21229 INFO: Analyzing hidden import 'pygame._sdl2.controller_old'
+21249 INFO: Analyzing hidden import 'pygame._sdl2.mixer'
+21250 INFO: Analyzing hidden import 'pygame._sdl2.touch'
+21262 INFO: Analyzing hidden import 'pygame._sdl2.window'
+21263 INFO: Analyzing hidden import 'pygame._sprite'
+21265 INFO: Analyzing hidden import 'pygame.camera'
+21281 INFO: Analyzing hidden import 'pygame.docs'
+21283 INFO: Analyzing hidden import 'pygame.docs.__main__'
+21292 INFO: Analyzing hidden import 'pygame.examples.aacircle'
+21314 INFO: Analyzing hidden import 'pygame.examples.aliens'
+21338 INFO: Analyzing hidden import 'pygame.examples.arraydemo'
+21345 INFO: Analyzing hidden import 'pygame.examples.audiocapture'
+21351 INFO: Analyzing hidden import 'pygame.examples.blend_fill'
+21361 INFO: Analyzing hidden import 'pygame.examples.blit_blends'
+21375 INFO: Analyzing hidden import 'pygame.examples.chimp'
+21387 INFO: Analyzing hidden import 'pygame.examples.cursors'
+21399 INFO: Analyzing hidden import 'pygame.examples.dropevent'
+21404 INFO: Analyzing hidden import 'pygame.examples.eventlist'
+21414 INFO: Analyzing hidden import 'pygame.examples.font_viewer'
+21428 INFO: Analyzing hidden import 'pygame.examples.fonty'
+21432 INFO: Analyzing hidden import 'pygame.examples.freetype_misc'
+21440 INFO: Analyzing hidden import 'pygame.examples.glcube'
+21464 INFO: Analyzing hidden import 'pygame.examples.go_over_there'
+21468 INFO: Analyzing hidden import 'pygame.examples.headless_no_windows_needed'
+21471 INFO: Analyzing hidden import 'pygame.examples.joystick'
+21478 INFO: Analyzing hidden import 'pygame.examples.liquid'
+21481 INFO: Analyzing hidden import 'pygame.examples.mask'
+21489 INFO: Analyzing hidden import 'pygame.examples.midi'
+21539 INFO: Analyzing hidden import 'pygame.examples.moveit'
+21547 INFO: Analyzing hidden import 'pygame.examples.multiplayer_joystick'
+21556 INFO: Analyzing hidden import 'pygame.examples.music_drop_fade'
+21568 INFO: Analyzing hidden import 'pygame.examples.ninepatch'
+21577 INFO: Analyzing hidden import 'pygame.examples.pixelarray'
+21586 INFO: Analyzing hidden import 'pygame.examples.playmus'
+21593 INFO: Analyzing hidden import 'pygame.examples.prevent_display_stretching'
+21599 INFO: Analyzing hidden import 'pygame.examples.resizing_new'
+21604 INFO: Analyzing hidden import 'pygame.examples.retro_scaling'
+21609 INFO: Analyzing hidden import 'pygame.examples.scaletest'
+21621 INFO: Analyzing hidden import 'pygame.examples.scrap_clipboard'
+21626 INFO: Analyzing hidden import 'pygame.examples.scroll'
+21642 INFO: Analyzing hidden import 'pygame.examples.setmodescale'
+21649 INFO: Analyzing hidden import 'pygame.examples.sound'
+21652 INFO: Analyzing hidden import 'pygame.examples.sound_array_demos'
+21662 INFO: Analyzing hidden import 'pygame.examples.sprite_texture'
+21672 INFO: Analyzing hidden import 'pygame.examples.stars'
+21680 INFO: Analyzing hidden import 'pygame.examples.testsprite'
+21695 INFO: Analyzing hidden import 'pygame.examples.textinput'
+21713 INFO: Analyzing hidden import 'pygame.examples.vgrade'
+21719 INFO: Analyzing hidden import 'pygame.examples.video'
+21730 INFO: Analyzing hidden import 'pygame.examples.window_opengl'
+21734 INFO: Analyzing hidden import 'pygame.geometry'
+21783 INFO: Analyzing hidden import 'pygame.newbuffer'
+21784 INFO: Analyzing hidden import 'pygame.tests'
+22490 INFO: Processing standard module hook 'hook-multiprocessing.util.py' from 'C:\\Users\\ÃÖ¿¬¿í\\OneDrive\\¹®¼­\\Ãµ»ó_RPG_¿Â¶óÀÎ°ü¸®_½ºÅ³ºÏ_ÃÖÁ¾º»\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+23925 INFO: Analyzing hidden import 'pygame.tests.base_test'
+24069 INFO: Analyzing hidden import 'pygame.tests.blit_test'
+24092 INFO: Analyzing hidden import 'pygame.tests.bufferproxy_test'
+24133 INFO: Analyzing hidden import 'pygame.tests.camera_test'
+24135 INFO: Analyzing hidden import 'pygame.tests.color_test'
+24293 INFO: Analyzing hidden import 'pygame.tests.constants_test'
+24307 INFO: Analyzing hidden import 'pygame.tests.controller_test'
+24329 INFO: Analyzing hidden import 'pygame.tests.ctest_test'
+24332 INFO: Analyzing hidden import 'pygame.tests.cursors_test'
+24345 INFO: Analyzing hidden import 'pygame.tests.debug_test'
+24557 INFO: Analyzing hidden import 'pygame.tests.display_test'
+24638 INFO: Analyzing hidden import 'pygame.tests.docs_test'
+24642 INFO: Analyzing hidden import 'pygame.tests.draw_test'
+25099 INFO: Analyzing hidden import 'pygame.tests.event_test'
+25170 INFO: Analyzing hidden import 'pygame.tests.font_test'
+25268 INFO: Analyzing hidden import 'pygame.tests.freetype_test'
+25414 INFO: Analyzing hidden import 'pygame.tests.ftfont_test'
+25417 INFO: Analyzing hidden import 'pygame.tests.geometry_test'
+25594 INFO: Analyzing hidden import 'pygame.tests.gfxdraw_test'
+25664 INFO: Analyzing hidden import 'pygame.tests.image__save_gl_surface_test'
+25669 INFO: Analyzing hidden import 'pygame.tests.image_test'
+25954 INFO: Analyzing hidden import 'pygame.tests.imageext_test'
+25962 INFO: Analyzing hidden import 'pygame.tests.joystick_test'
+25973 INFO: Analyzing hidden import 'pygame.tests.key_test'
+25990 INFO: Analyzing hidden import 'pygame.tests.locals_test'
+25992 INFO: Analyzing hidden import 'pygame.tests.mask_test'
+26469 INFO: Analyzing hidden import 'pygame.tests.math_test'
+26772 INFO: Analyzing hidden import 'pygame.tests.midi_test'
+26806 INFO: Analyzing hidden import 'pygame.tests.mixer_music_test'
+26831 INFO: Analyzing hidden import 'pygame.tests.mixer_test'
+26909 INFO: Analyzing hidden import 'pygame.tests.mouse_test'
+26942 INFO: Analyzing hidden import 'pygame.tests.pixelarray_test'
+27101 INFO: Analyzing hidden import 'pygame.tests.pixelcopy_test'
+27150 INFO: Analyzing hidden import 'pygame.tests.rect_test'
+27422 INFO: Analyzing hidden import 'pygame.tests.render_test'
+27460 INFO: Analyzing hidden import 'pygame.tests.rwobject_test'
+27468 INFO: Analyzing hidden import 'pygame.tests.scrap_test'
+27478 INFO: Analyzing hidden import 'pygame.tests.sndarray_tags'
+27480 INFO: Analyzing hidden import 'pygame.tests.sndarray_test'
+27494 INFO: Analyzing hidden import 'pygame.tests.sprite_test'
+27574 INFO: Analyzing hidden import 'pygame.tests.surface_test'
+27867 INFO: Analyzing hidden import 'pygame.tests.surfarray_tags'
+27868 INFO: Analyzing hidden import 'pygame.tests.surfarray_test'
+27912 INFO: Analyzing hidden import 'pygame.tests.surflock_test'
+27921 INFO: Analyzing hidden import 'pygame.tests.sysfont_test'
+27930 INFO: Analyzing hidden import 'pygame.tests.system_test'
+27936 INFO: Analyzing hidden import 'pygame.tests.time_test'
+27976 INFO: Analyzing hidden import 'pygame.tests.touch_test'
+27987 INFO: Analyzing hidden import 'pygame.tests.transform_test'
+28153 INFO: Analyzing hidden import 'pygame.tests.typing_test'
+28156 INFO: Analyzing hidden import 'pygame.tests.version_test'
+28160 INFO: Analyzing hidden import 'pygame.tests.video_test'
+28165 INFO: Analyzing hidden import 'pygame.tests.window_test'
+28198 INFO: Processing module hooks (post-graph stage)...
+28477 INFO: Performing binary vs. data reclassification (505 entries)
+33163 INFO: Looking for ctypes DLLs
+33482 INFO: Analyzing run-time hooks ...
+33487 INFO: Including run-time hook 'pyi_rth_inspect.py' from 'C:\\Users\\ÃÖ¿¬¿í\\OneDrive\\¹®¼­\\Ãµ»ó_RPG_¿Â¶óÀÎ°ü¸®_½ºÅ³ºÏ_ÃÖÁ¾º»\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+33493 INFO: Including run-time hook 'pyi_rth_pkgutil.py' from 'C:\\Users\\ÃÖ¿¬¿í\\OneDrive\\¹®¼­\\Ãµ»ó_RPG_¿Â¶óÀÎ°ü¸®_½ºÅ³ºÏ_ÃÖÁ¾º»\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+33499 INFO: Including run-time hook 'pyi_rth_multiprocessing.py' from 'C:\\Users\\ÃÖ¿¬¿í\\OneDrive\\¹®¼­\\Ãµ»ó_RPG_¿Â¶óÀÎ°ü¸®_½ºÅ³ºÏ_ÃÖÁ¾º»\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+33504 INFO: Including run-time hook 'pyi_rth_setuptools.py' from 'C:\\Users\\ÃÖ¿¬¿í\\OneDrive\\¹®¼­\\Ãµ»ó_RPG_¿Â¶óÀÎ°ü¸®_½ºÅ³ºÏ_ÃÖÁ¾º»\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+33538 INFO: Creating base_library.zip...
+33573 INFO: Looking for dynamic libraries
+pygame-ce 2.5.8 (SDL 2.32.10, Python 3.14.7)
+34369 INFO: Extra DLL search directories (AddDllDirectory): ['C:\\Users\\ÃÖ¿¬¿í\\OneDrive\\¹®¼­\\Ãµ»ó_RPG_¿Â¶óÀÎ°ü¸®_½ºÅ³ºÏ_ÃÖÁ¾º»\\.venv\\Lib\\site-packages\\pygame']
+34369 INFO: Extra DLL search directories (PATH): []
+36183 INFO: Warnings written to C:\Users\ÃÖ¿¬¿í\OneDrive\¹®¼­\Ãµ»ó_RPG_¿Â¶óÀÎ°ü¸®_½ºÅ³ºÏ_ÃÖÁ¾º»\build\CheonsangRPG\warn-CheonsangRPG.txt
+36275 INFO: Graph cross-reference written to C:\Users\ÃÖ¿¬¿í\OneDrive\¹®¼­\Ãµ»ó_RPG_¿Â¶óÀÎ°ü¸®_½ºÅ³ºÏ_ÃÖÁ¾º»\build\CheonsangRPG\xref-CheonsangRPG.html
+36381 INFO: checking PYZ
+36382 INFO: Building PYZ because PYZ-00.toc is non existent
+36382 INFO: Building PYZ (ZlibArchive) C:\Users\ÃÖ¿¬¿í\OneDrive\¹®¼­\Ãµ»ó_RPG_¿Â¶óÀÎ°ü¸®_½ºÅ³ºÏ_ÃÖÁ¾º»\build\CheonsangRPG\PYZ-00.pyz
+37049 INFO: Building PYZ (ZlibArchive) C:\Users\ÃÖ¿¬¿í\OneDrive\¹®¼­\Ãµ»ó_RPG_¿Â¶óÀÎ°ü¸®_½ºÅ³ºÏ_ÃÖÁ¾º»\build\CheonsangRPG\PYZ-00.pyz completed successfully.
+37089 INFO: checking PKG
+37089 INFO: Building PKG because PKG-00.toc is non existent
+37089 INFO: Building PKG (CArchive) CheonsangRPG.pkg
+41100 INFO: Building PKG (CArchive) CheonsangRPG.pkg completed successfully.
+41122 INFO: Bootloader C:\Users\ÃÖ¿¬¿í\OneDrive\¹®¼­\Ãµ»ó_RPG_¿Â¶óÀÎ°ü¸®_½ºÅ³ºÏ_ÃÖÁ¾º»\.venv\Lib\site-packages\PyInstaller\bootloader\Windows-64bit-intel\runw.exe
+41123 INFO: checking EXE
+41123 INFO: Building EXE because EXE-00.toc is non existent
+41123 INFO: Building EXE from EXE-00.toc
+41123 INFO: Copying bootloader EXE to C:\Users\ÃÖ¿¬¿í\OneDrive\¹®¼­\Ãµ»ó_RPG_¿Â¶óÀÎ°ü¸®_½ºÅ³ºÏ_ÃÖÁ¾º»\dist\CheonsangRPG.exe
+41237 INFO: Copying icon to EXE
+41298 INFO: Copying 0 resources to EXE
+41298 INFO: Embedding manifest in EXE
+41347 INFO: Appending PKG archive to EXE
+41440 INFO: Fixing EXE headers
+41877 INFO: Building EXE from EXE-00.toc completed successfully.
+41897 INFO: Build complete! The results are available in: C:\Users\ÃÖ¿¬¿í\OneDrive\¹®¼­\Ãµ»ó_RPG_¿Â¶óÀÎ°ü¸®_½ºÅ³ºÏ_ÃÖÁ¾º»\dist
+pygame-ce 2.5.8 (SDL 2.32.10, Python 3.14.7)
+        1 file(s) copied.
