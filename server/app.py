@@ -459,7 +459,18 @@ def admin_import_users():
 try:
     init_db()
 except Exception as exc:
-    # Fail closed: Render deploy logs show the actual DB/config issue, without printing secrets.
-    raise RuntimeError(f"Cheonsang RPG API startup failed: {type(exc).__name__}") from None
+    # Show a safe, actionable category in Render logs without ever printing
+    # DATABASE_URL, ADMIN_PASSWORD, SQL parameters, or connection details.
+    if isinstance(exc, RuntimeError):
+        safe_reason = str(exc)
+    elif isinstance(exc, psycopg.errors.InsufficientPrivilege):
+        safe_reason = "database user cannot create/use the cheonsang_rpg schema; use the database owner's Internal Database URL"
+    elif isinstance(exc, psycopg.OperationalError):
+        safe_reason = "database connection failed; check that DATABASE_URL is the talking-on-db Internal Database URL"
+    elif isinstance(exc, psycopg.Error):
+        safe_reason = f"PostgreSQL initialization error ({exc.sqlstate or type(exc).__name__})"
+    else:
+        safe_reason = type(exc).__name__
+    raise RuntimeError(f"Cheonsang RPG API startup failed: {safe_reason}") from None
 
 app = APP
