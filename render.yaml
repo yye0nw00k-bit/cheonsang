@@ -2,23 +2,15 @@ services:
   - type: web
     name: cheonsang-rpg-api
     runtime: python
-    region: singapore
+    region: ohio
     plan: free
     buildCommand: pip install -r server/requirements.txt
     startCommand: cd server && gunicorn app:app --bind 0.0.0.0:$PORT --workers 1 --threads 4
     healthCheckPath: /health
     envVars:
       - key: DATABASE_URL
-        fromDatabase:
-          name: cheonsang-rpg-db
-          property: connectionString
+        sync: false
       - key: ADMIN_USERNAME
         value: 최연욱
       - key: ADMIN_PASSWORD
         sync: false
-
-databases:
-  - name: cheonsang-rpg-db
-    databaseName: cheonsang_rpg
-    region: singapore
-    plan: free
