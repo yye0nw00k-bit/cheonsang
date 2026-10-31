@@ -24,11 +24,20 @@ PBKDF2_ROUNDS = 240_000
 USERNAME_RE = re.compile(r"^[^\\/\r\n\t]{2,12}$")
 
 
-def db_connect():
+DB_SCHEMA = "cheonsang_rpg"
+
+
+def _database_dsn():
     if not DATABASE_URL:
         raise RuntimeError("DATABASE_URL is not configured")
-    dsn = DATABASE_URL.replace("postgres://", "postgresql://", 1)
-    return psycopg.connect(dsn, row_factory=dict_row, connect_timeout=8)
+    return DATABASE_URL.replace("postgres://", "postgresql://", 1)
+
+
+def db_connect():
+    # Keep every runtime query inside the RPG-only schema.
+    conn = psycopg.connect(_database_dsn(), row_factory=dict_row, connect_timeout=8)
+    conn.execute('SET search_path TO "cheonsang_rpg"')
+    return conn
 
 
 def password_hash(password: str, salt: bytes) -> bytes:
@@ -49,7 +58,13 @@ def default_state():
 
 
 def init_db():
-    with db_connect() as conn:
+    if not DATABASE_URL:
+        raise RuntimeError("DATABASE_URL is not configured")
+    # Create and use a dedicated schema so the existing talking-on database
+    # tables in public (and other projects' schemas) remain untouched.
+    with psycopg.connect(_database_dsn(), row_factory=dict_row, connect_timeout=8) as conn:
+        conn.execute('CREATE SCHEMA IF NOT EXISTS "cheonsang_rpg"')
+        conn.execute('SET search_path TO "cheonsang_rpg"')
         conn.execute("""
             CREATE TABLE IF NOT EXISTS users (
                 username VARCHAR(12) PRIMARY KEY,
