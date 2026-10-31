@@ -22,4 +22,3 @@ databases:
     databaseName: cheonsang_rpg
     region: singapore
     plan: free
-    diskSizeGB: 1
